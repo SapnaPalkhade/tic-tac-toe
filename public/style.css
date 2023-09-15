@@ -80,8 +80,8 @@ button:hover {
   }
 
   #board > div {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     font-size: 80px;
   }
 
