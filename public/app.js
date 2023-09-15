@@ -99,6 +99,7 @@ function renderBoard() {
 	} else if (winner === 'T') {
 
 		messageEl.textContent = 'Its a Tie!!!';
+		buttonEl.style.visibility = 'visible';
 
 
 
