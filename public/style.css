@@ -49,25 +49,24 @@ h2 {
 
 #board>div {
   display: flex;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   background: #0ca192;
-  border: 2px solid grey;
+  border: 0.01vmin solid grey;
   justify-content: center;
   align-items: center;
-  font-size: 3vimpx;
+  font-size: 100px;
   font-weight: bold;
   color: #545454;
 }
 
 button {
-  margin-top: 3vmin;
+  margin-top: 4vmin;
   padding: 2vmin;
   font-size: 2vmin;
-  border-radius: 3vmin;
-  border: .2px solid grey;
+  border-radius: 4vmin;
+  border: .1vmin solid grey;
   color: grey;
-  cursor: pointer;
 }
 
 button:hover {
@@ -75,21 +74,21 @@ button:hover {
   background-color: grey;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   header {
-    font-size: 4vmin;
+    font-size: 5vmin;
   }
 
   #board > div {
-    height: 80px;
-    width: 80px;
-    font-size: 2.5vmin;
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
   }
 
   button {
     margin-top: 2vmin;
     padding: 1.5vmin;
     font-size: 1.5vmin;
-    border-radius: 2vmin;
+    border-radius: 3vmin;
   }
 }
